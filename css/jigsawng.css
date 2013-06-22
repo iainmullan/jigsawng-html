@@ -1,0 +1,78 @@
+.puzzle {
+  width: 324px;
+  height: 324px; }
+
+.piece {
+  float: left;
+  display: inline-block;
+  width: 72px;
+  margin: 2px;
+  height: 72px;
+  background-image: url("../img/puzzle.jpeg");
+  -webkit-transition: left 0.2 linear;
+  -moz-transition: left 0.2 linear;
+  transition: left 0.2 linear; }
+
+.p1 {
+  background-position: 0 0;
+  background-color: #502713; }
+
+.p2 {
+  background-position: -72px 0;
+  background-color: #E19C43; }
+
+.p3 {
+  background-position: -144px 0;
+  background-color: #E19C43; }
+
+.p4 {
+  background-position: -216px 0;
+  background-color: #821D13; }
+
+.p5 {
+  background-position: 0 -72px;
+  background-color: #502713; }
+
+.p6 {
+  background-position: -72px -72px;
+  background-color: #821D13; }
+
+.p7 {
+  background-position: -144px -72px;
+  background-color: #E19C43; }
+
+.p8 {
+  background-position: -216px -72px;
+  background-color: #821D13; }
+
+.p9 {
+  background-position: 0 -144px;
+  background-color: #E19C43; }
+
+.p10 {
+  background-position: -72px -144px;
+  background-color: #821D13; }
+
+.p11 {
+  background-position: -144px -144px;
+  background-color: #502713; }
+
+.p12 {
+  background-position: -216px -144px;
+  background-color: #502713; }
+
+.p13 {
+  background-position: 0 -216px;
+  background-color: #821D13; }
+
+.p14 {
+  background-position: -72px -216px;
+  background-color: #E19C43; }
+
+.p15 {
+  background-position: -144px -216px;
+  background-color: #502713; }
+
+.p16 {
+  background-position: -216px -216px;
+  background-color: #E19C43; }
